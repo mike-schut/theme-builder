@@ -10,6 +10,18 @@ get_header(); ?>
 
 <div role="main">
 
+	<div id="selector">
+
+		<div id="headers">
+			<?php test(); ?>
+		</div>
+
+	</div>
+
+	<div id="renderings">
+
+	</div>
+
 	<?php
 
 	if ( have_posts() ) {
